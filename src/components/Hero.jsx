@@ -1,5 +1,3 @@
-import HeroImage from "../assets/images/illustration-intro.svg";
-
 const Hero = () => {
   return (
     <section
@@ -28,7 +26,11 @@ const Hero = () => {
       </div>
 
       {/* image */}
-      <img src={HeroImage} alt="hero image" className="md:w-2/4" />
+      <img
+        src="./illustration-intro.svg"
+        alt="hero image"
+        className="md:w-2/4"
+      />
     </section>
   );
 };

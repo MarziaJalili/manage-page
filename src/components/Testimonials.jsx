@@ -1,13 +1,8 @@
-import AvatarAnisha from "../assets/images/avatar-anisha.png";
-import AvatarAli from "../assets/images/avatar-ali.png";
-import AvatarRichard from "../assets/images/avatar-richard.png";
-import AvatarShanai from "../assets/images/avatar-shanai.png";
-
 const Testimonials = () => {
   const testimonialsData = [
     {
       img: {
-        src: AvatarAnisha,
+        src: "./avatar-anisha.png",
         alt: "avatar anisha",
       },
       username: "Anisha Li",
@@ -16,7 +11,7 @@ const Testimonials = () => {
     },
     {
       img: {
-        src: AvatarAli,
+        src: "./avatar-ali.png",
         alt: "avatar ali",
       },
       username: "Ali Bravo",
@@ -25,7 +20,7 @@ const Testimonials = () => {
     },
     {
       img: {
-        src: AvatarRichard,
+        src: "./avatar-richard.png",
         alt: "avatar richard",
       },
       username: "Richard Watts",
@@ -34,7 +29,7 @@ const Testimonials = () => {
     },
     {
       img: {
-        src: AvatarShanai,
+        src: "./avatar-shanai.png",
         alt: "avatar shanai",
       },
       username: "Shanai Gough",

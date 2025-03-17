@@ -1,7 +1,7 @@
 import Header from "./components/header/Header";
 import Hero from "./components/Hero";
 import Features from "./components/features/Features";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 import Cta from "./components/Cta";
 import Footer from "./components/footer/Footer";
 
@@ -14,7 +14,7 @@ const App = () => {
       <Header darkMood={darkMood} setDarkMood={setDarkMood} />
       <Hero />
       <Features />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Cta />
       <Footer darkMood={darkMood} />
     </main>
