@@ -2,7 +2,7 @@
 
 @import "tailwindcss";
 
-/* @theme {
+@theme {
   --font-be-vietnam-pro: "Be Vietnam Pro", sans-serif;
   --color-Bright-Red: hsl(12, 88%, 59%);
   --color-Dark-Blue: hsl(228, 39%, 23%);
@@ -13,7 +13,7 @@
   --color-Very-Pale-Red: hsl(13, 100%, 96%);
   --color-Very-Light-Gray: hsl(0, 0%, 98%);
   --animate-move: move 10s linear infinite;
-} */
+}
 
 /* animate the bubbles */
 .bubbles span {
